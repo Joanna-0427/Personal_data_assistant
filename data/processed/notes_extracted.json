@@ -1,0 +1,14 @@
+{
+  "action_items": [
+    "TODO: Review travel expenses for January",
+    "ACTION: Set monthly food budget cap",
+    "FOLLOW UP: Compare Uber vs Lyft spending",
+    "TODO: Prepare summary for expense anomalies"
+  ],
+  "topics": {
+    "#finance": 1,
+    "#tax": 1,
+    "#health": 1
+  },
+  "total_lines": 10
+}

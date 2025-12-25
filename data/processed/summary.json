@@ -1,0 +1,101 @@
+{
+  "expenses": {
+    "total_spend": 3428.94,
+    "average_amount": 489.85,
+    "count_by_category": {
+      "Transport": 1,
+      "Food": 2,
+      "Entertainment": 1,
+      "Rent": 1,
+      "Refund": 1,
+      "Travel": 1
+    },
+    "total_by_category": {
+      "Transport": 45.2,
+      "Food": 138.75,
+      "Entertainment": 9.99,
+      "Rent": 250.0,
+      "Refund": -15.0,
+      "Travel": 3000.0
+    },
+    "top_3_categories_by_total": [
+      [
+        "Travel",
+        3000.0
+      ],
+      [
+        "Rent",
+        250.0
+      ],
+      [
+        "Food",
+        138.75
+      ]
+    ],
+    "largest_5_transactions": [
+      {
+        "date": "2024-01-09",
+        "amount": 3000.0,
+        "category": "Travel",
+        "description": "Flight ticket to NYC"
+      },
+      {
+        "date": "2024-01-07",
+        "amount": 250.0,
+        "category": "Rent",
+        "description": "January partial rent"
+      },
+      {
+        "date": "2024-01-05",
+        "amount": 120.0,
+        "category": "Food",
+        "description": "Grocery shopping"
+      },
+      {
+        "date": "2024-01-04",
+        "amount": 45.2,
+        "category": "Transport",
+        "description": "Uber ride to airport"
+      },
+      {
+        "date": "2024-01-10",
+        "amount": 18.75,
+        "category": "Food",
+        "description": "Lunch with colleague"
+      }
+    ],
+    "anomaly_rule": {
+      "type": "mean_plus_2std",
+      "threshold": 2710.95
+    },
+    "anomalies": [
+      {
+        "date": "2024-01-09",
+        "amount": 3000.0,
+        "category": "Travel",
+        "description": "Flight ticket to NYC"
+      }
+    ]
+  },
+  "notes": {
+    "action_items": [
+      "TODO: Review travel expenses for January",
+      "ACTION: Set monthly food budget cap",
+      "FOLLOW UP: Compare Uber vs Lyft spending",
+      "TODO: Prepare summary for expense anomalies"
+    ],
+    "topics": {
+      "#finance": 1,
+      "#tax": 1,
+      "#health": 1
+    },
+    "total_lines": 10
+  },
+  "enrichment": {
+    "type": "exchange_rate",
+    "base": "USD",
+    "target": "EUR",
+    "rate": null,
+    "source": "failed"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Sample User",
+  "home_city": "Boston",
+  "country": "US",
+  "preferred_currency": "EUR",
+  "time_zone": "America/New_York",
+  "tags_to_track": [
+    "#finance",
+    "#tax",
+    "#health"
+  ],
+  "api_preferences": {
+    "currency_api": "exchangerate",
+    "cache_ttl_hours": 24
+  }
+}

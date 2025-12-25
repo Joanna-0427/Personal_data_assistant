@@ -1,0 +1,5 @@
+date,amount,category,description,error
+2024-01-11,abc,Food,Invalid amount example,could not convert string to float: 'abc'
+01-12-2024,25.00,Food,Invalid date format,Invalid date format (expected YYYY-MM-DD)
+2024-01-13,55.00,,Missing category,Empty category
+2024-01-14,999999,Travel,Amount out of allowed range,Amount out of range
